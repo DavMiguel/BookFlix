@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookFlix</title>
+
+    <!--Arquivo geral de css-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--OwlCarousel-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+
+    <!--Header onde há a barra de navegação-->
+    <header>
+        <div class="container">
+            <h2 class="logo">BOOKFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Terror</a>
+                <a href="#">Fantasia</a>
+                <a href="#">Quadrinhos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--Main onde fica a imagem e informações do livro principal-->
+    <main>
+        <div class="livro_principal">
+            <div class="container">
+                <h3 class="titulo">CORALINE</h3>
+            </div>
+            <P class="descricao">
+                Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à
+                sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma
+                névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar.
+            </P>
+
+            <!--Div dos botões usados-->
+            <div class="botoes">
+                <button role="button" class="botao">
+                    <i class="fa-solid fa-book"></i>   
+                    LEIA AGORA          
+                </button>
+
+                <button role="button" class="botao">
+                    <i class="fa-solid fa-circle-info"></i>
+                    MAIS INFORMAÇÕES
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!--Div onde há o carrossel de livros-->
+    <div class="carrossel_livros">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box_livros" src="img/imagem1.jpg" alt="Imagem de capa do livro: Os dois morrem no final">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem2.jpg" alt="Imagem de capa do livro: Biblioteca da meia noite">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem3.jpg" alt="Imagem de capa do livro: Lovecraft">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem4.jpg" alt="Imagem de capa do livro: IT a coisa">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem5.jpg" alt="Imagem de capa do livro: O homem-susurro">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem6.jpg" alt="Imagem de capa do livro: Avatar a Promessa ">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem7.jpg" alt="Imagem de capa do livro: As cronicas de fogo e gelo">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem8.jpg" alt="Imagem de capa do livro: Trono de vidro">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem9.jpg" alt="Imagem de capa do livro: Cemiterio">
+            </div>
+            <div class="item">
+                <img class="box_livros" src="img/imagem10.jpg" alt="Imagem de capa do livro: O Hobbit">
+            </div>
+        </div>
+    </div>
+
+    <!--Scripts usados no site-->
+    <script src="https://kit.fontawesome.com/04439b9065.js" crossorigin="anonymous"></script>
+    <script src="javascript/owl/jquery.min.js"></script>
+    <script src="javascript/owl/owl.carousel.min.js"></script>
+    <script src="javascript/owl/main.js"></script>
+
+</body>
+
+</html>

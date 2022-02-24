@@ -1,0 +1,119 @@
+/*Declaração de variavel de cor*/
+:root {
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+/*Alterações na estrutura do site*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Alterações na estrutura do site*/
+body{
+    background-color: var(--preto);
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: white;
+}
+
+/*Alterações no superior do site*/
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+/*Alterações na logo*/
+.logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black',Times;
+    font-size: 40px;
+}
+
+/*Alterações na barra de navegação*/
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+/*Metodo de alteração de cor quando o mouse estiver sobre*/
+header nav a:hover{
+    color:#fff
+}
+
+/*Alterrações no livro principal*/
+.livro_principal{
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)),url(/img/coraline_fundo.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/*Alterações na descrição do livro principal*/
+.livro_principal .descricao{
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+/*Alterações no titulo*/
+.titulo{
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Alterações nos botões*/
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+/*Alteração da cor quando o mouse estiver sobre*/
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Alterações no botão*/
+.botao i{
+    margin-left: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme_principal .container{
+    width: 70%;
+}
+
+/*Alterações no icone dos livro */
+.box_livros{
+    height: 100% ;
+    width: 100%;
+    display: block;
+}
+
+/*Alteração no efeito de carrossel do livros*/
+.carrossel_livros{
+    margin-top: 5px;
+}
